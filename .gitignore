@@ -1,0 +1,17 @@
+env/
+
+# ignore .vcf files for now
+*.vcf
+
+*.xlsx
+
+# don't commit CSV files, except the example data file and example OL file
+*.csv
+!data.csv
+!ols.csv
+
+# we don't want our .env file!
+.env
+
+# also don't want to commit contact files
+contact-files/
